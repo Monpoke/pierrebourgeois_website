@@ -109,7 +109,10 @@ Terminal = {
             return Terminal.validateKey(e);
         }
 
-        var char = String.fromCharCode(e.keyCode);
+        var charCode = (typeof e.which == "number") ? e.which : e.keyCode;
+        console.log(charCode);
+
+        var char = String.fromCharCode(charCode);
         Terminal.currentTyping += char;
         Terminal.currentCursorIdx++;
         Terminal.currentTyping = $.trim(Terminal.currentTyping);
