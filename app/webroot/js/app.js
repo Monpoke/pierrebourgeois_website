@@ -49,8 +49,8 @@ Terminal = {
         Terminal.addConsole(t("global.welcome"));
         Terminal.updateType();
         $("html").on("keypress", Terminal.callbackKey);
-        $(document).keypress(Terminal.callbackKey);
-        $(document).bind("keydown keypress", Terminal.backKey);
+        $("html").keypress(Terminal.callbackKey);
+        $("html").bind("keydown keypress", Terminal.backKey);
     },
     /**
      * Adds a message to terminal
