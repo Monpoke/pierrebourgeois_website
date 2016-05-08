@@ -1,0 +1,128 @@
+{
+    "global": {
+        "welcome": "Welcome... Type <em>help</em> to see the different commands. Translation in progress.",
+        "notfound": "<span class='error'>__cmd__: command not found</span>",
+        "orAnd": "The operations <em>&&</em> and <em>||</em> aren't supported.",
+        "notok": "<span class='error'>This operation is not supported !</span>",
+        "switchLanguage": "Language has been changed.",
+        "switchNoLanguage": "This language doesn't exists !"
+    },
+    "custom": {
+        "username": "hirer",
+        "machine": "pierre-dev"
+    },
+    "commands": {
+        "clear": {
+            "cmd": "clear"
+        },
+        "help": {
+            "cmd": "help",
+            "text": [
+                "INTERACTIVE CV OF <span class='name'>PIERRE BOURGEOIS</span>",
+                "With this looks-like terminal, you can read my profile.",
+                "Here the available commands on this system:",
+                "",
+                "TRANSLATION IN PROGRESS",
+                "",
+                "<em>man</em>: find out about me",
+                "<em>history</em>: my education",
+                "<em>echo</em>: show my CV in your browser (french)",
+                "<em>download</em>: download my CV (french)",
+                "<em>ls</em>: list some of my projects",
+                "<em>ping [phone|twitter|mail|skype]</em>: show my contact details",
+                "<em>mail</em>: send me an email",
+                "<em>startx</em>: launch the graphic version of this site",
+                "",
+                "<em>help</em>: here you are",
+                "<em>clear</em>: clear the screen",
+                "<em>lang [fr|en]</em>: update the language"
+            ]
+        },
+        "startx": {
+            "cmd": "startx",
+            "text": [
+                "The graphic version will be openened in a few moment...",
+                "If it don't works, <a href='__link__'>click-here</a>."
+            ]
+        },
+        "ping": {
+            "cmd": "ping",
+            "text": [
+                "An idea? A project? Contact me!"
+            ],
+            "email": "Mail address:",
+            "twitter": "Twitter account:",
+            "skype": "Skype account:",
+            "phone": "Phone number:"
+        },
+        "mail": {
+            "cmd": "mail",
+            "text": [
+                "Your mail client will be opened...",
+                "If it don't works, <a href='__link__'>click-here</a>."
+            ]
+        },
+        "download": {
+            "cmd": "download",
+            "text": [
+                "My CV will be downloaded in your browser...",
+                "If it don't works, <a href='__link__'>click-here</a>."
+            ]
+        },
+        "echo": {
+            "cmd": "echo",
+            "text": [
+                "My CV will be showed in your browser...",
+                "If it don't works, <a href='__link__'>click-here</a>."
+            ]
+        },
+        "history": {
+            "cmd": "history",
+            "text": [
+                "<b>[MY SCHOOL PATH]</b>",
+                "2014-2016) <em>DUT Informatique</em> - IUT A Lille 1 - <i>In progress</i>",
+                "2011-2014) <em>Baccalauréat Scientique mention bien</em> - Highschool Louis Pasteur Somain",
+                "2007-2011) <em>Brevet des Collèges mention très bien</em>"
+            ]
+        },
+        "ls": {
+            "cmd": "ls",
+            "text": [
+                "<b>[MY PROJECTS]</b>",
+                "<span class='info'>)Sites Internets(</span>",
+                "2011 - today) <em>Plume d'Or</em>, online game of virtual simulation. Conception, development.",
+                "2012 - today) <em>WebiTools</em>, website which purposes additionals modules for Webidev. Conception, development.",
+                "2015) Security improvements on REST API",
+                "2015) Réalisations de modules d'une <em>interface Web</em> pour une application Android/iPhone",
+                "2014) Réalisations de modules d'<em>upload anonyme</em> de vidéos YouTube.",
+                "2014) <em>Adaptation</em> d'une structure de données sous mySQL (Liste complète des villes et pays du monde).",
+                "2013) Réalisation d'un <em>framework</em> pour la réalisation du jeu <em>Plume d'Or</em>",
+                "2010) Maintenance et développement d'un jeu de <em>simulation virtuelle</em> de Tigres.",
+                "2008) Créations de sites internet pour une <em>association sportive</em>, et une <em>harmonie musicale</em>.",
+                "2008) Créations de sites internet pour une <em>association sportive</em>, et une <em>harmonie musicale</em>.",
+                "",
+                "<span class='info'>)Applications(</span>",
+                "2015) Réalisation d'un jeu ludoéducatif. Jeu de labyrinthe avec comptes et récompenses. <em>Java</em> assisté de la librairie <em>iJava</em>."
+            ]
+        },
+
+
+        "man": {
+            "cmd": "man",
+            "text": [
+                "<span class='name'>Pierre Bourgeois</span>. 19 ans. Born on June, the 7<sup>th</sup> 1996.",
+                "<em>Développeur passionné</em> depuis de nombreuses années, je suis spécialisé dans les technologies du <em>Web</em>.",
+                "Je suis plus particulièrement efficace pour des applications <em>back-end</em>.",
+                "",
+                "Le <i>PHP</i>, <i>SQL</i> et moi, on se côtoie depuis si longtemps... que nous sommes devenus de sacrés amis ! <img src='/img/mini_coeur.png' alt='' />",
+                "Je maîtrise également le <i>HTML5</i> / <i>CSS3</i> ainsi que le <i>javascript</i> avec <i>jQuery</i>.",
+                "",
+                "Depuis cette année, je commence à étudier le <i>Java</i> et le <i>C</i> au sein de mon année d'enseignement supérieur.",
+                "",
+                "Dans la vie, je suis aussi étudiant en première année de <span class='info'>DUT Informatique</span>.",
+                "J'ai toujours voulu faire de l'informatique, ma passion, mon métier !"
+            ]
+        }
+    }
+
+}

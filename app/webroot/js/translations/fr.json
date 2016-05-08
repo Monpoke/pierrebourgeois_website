@@ -1,0 +1,123 @@
+{
+    "global": {
+        "welcome": "Bienvenue... Taper <em>help</em> pour voir les différentes commandes.",
+        "notfound": "<span class='error'>__cmd__: commande introuvable</span>",
+        "orAnd": "Les opérations <em>&&</em> et <em>||</em> ne sont pas supportées.",
+        "notok": "<span class='error'>Cette opération n'est pas supportée !</span>",
+        "switchLanguage": "La langue a été modifiée.",
+        "switchNoLanguage": "La langue n'existe pas !"
+    },
+    "custom": {
+        "username": "employeur",
+        "machine": "pierre-dev"
+    },
+    "commands": {
+        "clear": {
+            "cmd": "clear"
+        },
+        "help": {
+            "cmd": "help",
+            "text": [
+                "CV INTERACTIF DE <span class='name'>PIERRE BOURGEOIS</span>",
+                "A la manière d'un terminal, vous pouvez consulter mon profil.",
+                "Voici les commandes disponibles sur ce système :",
+                "",
+                "<em>man</em>: affiche une description de mon profil",
+                "<em>history</em>: affiche mon parcours scolaire",
+                "<em>echo</em>: affiche mon CV",
+                "<em>download</em>: télécharge mon CV",
+                "<em>ls</em>: affiche la liste de mes projets",
+                "<em>ping [phone|twitter|mail|skype]</em>: affiche mes coordonnées",
+                "<em>mail</em>: pour me contacter",
+                "<em>startx</em>: afficher la version graphique du site",
+                "",
+                "<em>help</em>: vous y êtes",
+                "<em>clear</em>: effacer l'écran",
+                "<em>lang [fr|en]</em>: permet de modifier la langue - traduction complète à venir"
+            ]
+        },
+        "startx": {
+            "cmd": "startx",
+            "text": [
+                "La version graphique du site va être affichée dans quelques instants...",
+                "Si elle ne se lance pas, <a href='__link__'>cliquez-ici</a>."
+            ]
+        },
+        "ping": {
+            "cmd": "ping",
+            "text": [
+                "Une idée ? Un projet ? N'hésitez pas à me contacter !"
+            ],
+            "email": "Adresse email :",
+            "twitter": "Compte Twitter :",
+            "skype": "Compte Skype :",
+            "phone": "Numéro de téléphone :"
+        },
+        "mail": {
+            "cmd": "mail",
+            "text": [
+                "Le lien email va être ouvert dans quelques instants...",
+                "Si il ne se lance pas, <a href='__link__'>cliquez-ici</a>."
+            ]
+        },
+        "download": {
+            "cmd": "download",
+            "text": [
+                "Mon CV va être téléchargé dans votre navigateur...",
+                "Si il ne se lance pas, <a href='__link__'>cliquez-ici</a>."
+            ]
+        },
+        "echo": {
+            "cmd": "echo",
+            "text": [
+                "Mon CV va être affiché dans votre navigateur...",
+                "Si il ne se lance pas, <a href='__link__'>cliquez-ici</a>."
+            ]
+        },
+        "history": {
+            "cmd": "history",
+            "text": [
+                "<b>[MON PARCOURS SCOLAIRE]</b>",
+                "2014-2016) <em>DUT Informatique</em> - IUT A Lille 1 - <i>En cours</i>",
+                "2011-2014) <em>Baccalauréat Scientique mention bien</em> - Lycée Louis Pasteur Somain",
+                "2007-2011) <em>Brevet des Collèges mention très bien</em>"
+            ]
+        },
+        "ls": {
+            "cmd": "ls",
+            "text": [
+                "<b>[MES REALISATIONS]</b>",
+                "<span class='info'>)Sites Internets(</span>",
+                "2011 - Aujourd'hui) <em>Plume d'Or</em>, jeu de simulation virtuelle en ligne. Conception, développement.",
+                "2012 - Aujourd'hui) <em>WebiTools</em>, site de modules complémentaires pour les sites sous Webidev. Conception, développement.",
+                "2015) Corrections de failles de sécurité sur une API REST",
+                "2015) Réalisations de modules d'une <em>interface Web</em> pour une application Android/iPhone",
+                "2014) Réalisations de modules d'<em>upload anonyme</em> de vidéos YouTube.",
+                "2014) <em>Adaptation</em> d'une structure de données sous mySQL (Liste complète des villes et pays du monde).",
+                "2013) Réalisation d'un <em>framework</em> pour la réalisation du jeu <em>Plume d'Or</em>",
+                "2010) Maintenance et développement d'un jeu de <em>simulation virtuelle</em> de Tigres.",
+                "2008) Créations de sites internet pour une <em>association sportive</em>, et une <em>harmonie musicale</em>.",
+                "",
+                "<span class='info'>)Applications(</span>",
+                "2015) Réalisation d'un jeu ludoéducatif. Jeu de labyrinthe avec comptes et récompenses. <em>Java</em> assisté de la librairie <em>iJava</em>."
+            ]
+        },
+        "man": {
+            "cmd": "man",
+            "text": [
+                "<span class='name'>Pierre Bourgeois</span>. 19 ans. Né le 7 juin 1996.",
+                "<em>Développeur passionné</em> depuis de nombreuses années, je suis spécialisé dans les technologies du <em>Web</em>.",
+                "Je suis plus particulièrement efficace pour des applications <em>back-end</em>.",
+                "",
+                "Le <i>PHP</i>, <i>SQL</i> et moi, on se côtoie depuis si longtemps... que nous sommes devenus de sacrés amis ! <img src='/img/mini_coeur.png' alt='' />",
+                "Je maîtrise également le <i>HTML5</i> / <i>CSS3</i> ainsi que le <i>javascript</i> avec <i>jQuery</i>.",
+                "",
+                "Depuis cette année, je commence à étudier le <i>Java</i> et le <i>C</i> au sein de mon année d'enseignement supérieur.",
+                "",
+                "Dans la vie, je suis aussi étudiant en première année de <span class='info'>DUT Informatique</span>.",
+                "J'ai toujours voulu faire de l'informatique, ma passion, mon métier !"
+            ]
+        }
+    }
+
+}

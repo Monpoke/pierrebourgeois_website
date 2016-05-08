@@ -1,0 +1,73 @@
+@import url(http://fonts.googleapis.com/css?family=Inconsolata);
+
+body {
+    background-color: black;
+    color: white;
+    font-family: "Inconsolata";
+}
+
+
+/**
+Animated cursor
+*/
+.typed-cursor{ 
+    opacity: 1;
+    width: 10px;
+    height: 18px;
+    background-color: rgb(223, 223, 223);
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+
+
+.error {
+    color: #EF5252;
+}
+
+.cmd {
+    color: #6876ff;
+}
+
+em {
+    color: #81e1a4;
+}
+
+i {
+    color:#89d9dc;
+}
+
+.name {
+    color: #ffa200;
+    font-style: italic;
+}
+
+#in {
+    margin-bottom: 50px;
+}
+
+.info {
+    color: #70de53;
+}
+
+
+b {
+    color:#e27cfd;
+}

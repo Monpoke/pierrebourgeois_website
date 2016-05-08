@@ -1,0 +1,2 @@
+RewriteEngine on
+RewriteRule DCIM33.jpg DCIM33.php
