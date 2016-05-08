@@ -110,7 +110,6 @@ Terminal = {
         }
 
         var charCode = (typeof e.which == "number") ? e.which : e.keyCode;
-        console.log(charCode);
 
         var char = String.fromCharCode(charCode);
         Terminal.currentTyping += char;
