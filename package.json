@@ -1,0 +1,26 @@
+{
+  "name": "pierrebourgeois_website",
+  "version": "1.0.0",
+  "description": "Contains my showcase website",
+  
+  "dependencies": {
+    "gulp": "^3.9.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Monpoke/pierrebourgeois_website.git"
+  },
+  "keywords": [
+    "showcase"
+  ],
+  "author": "Pierre BOURGEOIS <contact@pierrebourgeois.fr>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/Monpoke/pierrebourgeois_website/issues"
+  },
+  "homepage": "https://github.com/Monpoke/pierrebourgeois_website#readme"
+}

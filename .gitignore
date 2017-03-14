@@ -26,3 +26,11 @@
 Icon?
 ehthumbs.db
 Thumbs.db
+
+
+
+# NODEJS related files #
+########################
+/node_modules
+
+
