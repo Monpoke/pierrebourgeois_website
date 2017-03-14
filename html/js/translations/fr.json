@@ -21,16 +21,11 @@
                 "CV INTERACTIF DE <span class='name'>PIERRE BOURGEOIS</span>",
                 "A la manière d'un terminal, vous pouvez consulter mon profil.",
                 "Voici les commandes disponibles sur ce système :",
-                "",
-                "<em>man</em>: affiche une description de mon profil",
+                "<em>finger</em>: affiche une description de mon profil",
                 "<em>history</em>: affiche mon parcours scolaire",
-                "<!--<em>echo</em>: affiche mon CV-->",
-                "<!-- <em>download</em>: télécharge mon CV-->",
                 "<em>ls</em>: affiche la liste de mes projets",
                 "<em>ping [phone|twitter|mail|skype]</em>: affiche mes coordonnées",
                 "<em>mail</em>: pour me contacter",
-                "<em>startx</em>: afficher la version graphique du site",
-                "",
                 "<em>help</em>: vous y êtes",
                 "<em>clear</em>: effacer l'écran",
                 "<em>lang [fr|en]</em>: permet de modifier la langue - traduction complète à venir"
@@ -102,8 +97,8 @@
                 "2015) Réalisation d'un jeu ludoéducatif. Jeu de labyrinthe avec comptes et récompenses. <em>Java</em> assisté de la librairie <em>iJava</em>."
             ]
         },
-        "man": {
-            "cmd": "man",
+        "finger": {
+            "cmd": "finger",
             "text": [
                 "<span class='name'>Pierre Bourgeois</span>. 19 ans. Né le 7 juin 1996.",
                 "<em>Développeur passionné</em> depuis de nombreuses années, je suis spécialisé dans les technologies du <em>Web</em>.",

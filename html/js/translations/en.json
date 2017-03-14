@@ -24,15 +24,11 @@
                 "",
                 "TRANSLATION IN PROGRESS",
                 "",
-                "<em>man</em>: find out about me",
+                "<em>finger</em>: find out about me",
                 "<em>history</em>: my education",
-                "<em>echo</em>: show my CV in your browser (french)",
-                "<em>download</em>: download my CV (french)",
                 "<em>ls</em>: list some of my projects",
                 "<em>ping [phone|twitter|mail|skype]</em>: show my contact details",
                 "<em>mail</em>: send me an email",
-                "<em>startx</em>: launch the graphic version of this site",
-                "",
                 "<em>help</em>: here you are",
                 "<em>clear</em>: clear the screen",
                 "<em>lang [fr|en]</em>: update the language"
@@ -107,8 +103,8 @@
         },
 
 
-        "man": {
-            "cmd": "man",
+        "finger": {
+            "cmd": "finger",
             "text": [
                 "<span class='name'>Pierre Bourgeois</span>. 19 ans. Born on June, the 7<sup>th</sup> 1996.",
                 "<em>Développeur passionné</em> depuis de nombreuses années, je suis spécialisé dans les technologies du <em>Web</em>.",
