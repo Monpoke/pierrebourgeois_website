@@ -2,11 +2,15 @@
   "name": "pierrebourgeois_website",
   "version": "1.0.0",
   "description": "Contains my showcase website",
-  
   "dependencies": {
     "gulp": "^3.9.1"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "gulp-clean-css": "^3.0.3",
+    "gulp-concat": "^2.6.1",
+    "gulp-uglify": "^2.1.0",
+    "pump": "^1.0.2"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

@@ -33,4 +33,9 @@ Thumbs.db
 ########################
 /node_modules
 
+# PRODUCTION FILES #
+####################
+/html/dist
+
+
 
