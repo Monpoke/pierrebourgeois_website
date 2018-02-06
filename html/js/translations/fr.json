@@ -73,7 +73,8 @@
             "cmd": "history",
             "text": [
                 "<b>[MON PARCOURS SCOLAIRE]</b>",
-                "2014-2016) <em>DUT Informatique</em> - IUT A Lille 1 - <i>En cours</i>",
+                "2016-2019) <em>Diplôme Ingénieur Réseau et Télécom</em> - IMT Lille Douai (Télécom Lille) - En alternance chez Worldline - <em>En cours</em>",
+                "2014-2016) <em>DUT Informatique</em> - IUT A Lille 1",
                 "2011-2014) <em>Baccalauréat Scientique mention bien</em> - Lycée Louis Pasteur Somain",
                 "2007-2011) <em>Brevet des Collèges mention très bien</em>"
             ]
@@ -86,12 +87,12 @@
                 "2011 - Aujourd'hui) <em>Plume d'Or</em>, jeu de simulation virtuelle en ligne. Conception, développement.",
                 "2012 - Aujourd'hui) <em>WebiTools</em>, site de modules complémentaires pour les sites sous Webidev. Conception, développement.",
                 "2015) Corrections de failles de sécurité sur une API REST",
-                "2015) Réalisations de modules d'une <em>interface Web</em> pour une application Android/iPhone",
-                "2014) Réalisations de modules d'<em>upload anonyme</em> de vidéos YouTube.",
+                "2015) Réalisation de modules d'une <em>interface Web</em> pour une application Android/iPhone",
+                "2014) Réalisation de modules d'<em>upload anonyme</em> de vidéos YouTube.",
                 "2014) <em>Adaptation</em> d'une structure de données sous mySQL (Liste complète des villes et pays du monde).",
                 "2013) Réalisation d'un <em>framework</em> pour la réalisation du jeu <em>Plume d'Or</em>",
                 "2010) Maintenance et développement d'un jeu de <em>simulation virtuelle</em> de Tigres.",
-                "2008) Créations de sites internet pour une <em>association sportive</em>, et une <em>harmonie musicale</em>.",
+                "2008) Création de sites internet pour une <em>association sportive</em>, et une <em>harmonie musicale</em>.",
                 "",
                 "<span class='info'>)Applications(</span>",
                 "2015) Réalisation d'un jeu ludoéducatif. Jeu de labyrinthe avec comptes et récompenses. <em>Java</em> assisté de la librairie <em>iJava</em>."
@@ -100,17 +101,9 @@
         "finger": {
             "cmd": "finger",
             "text": [
-                "<span class='name'>Pierre Bourgeois</span>. 19 ans. Né le 7 juin 1996.",
-                "<em>Développeur passionné</em> depuis de nombreuses années, je suis spécialisé dans les technologies du <em>Web</em>.",
-                "Je suis plus particulièrement efficace pour des applications <em>back-end</em>.",
-                "",
-                "Le <i>PHP</i>, <i>SQL</i> et moi, on se côtoie depuis si longtemps... que nous sommes devenus de sacrés amis ! <img src='/img/mini_coeur.png' alt='' />",
-                "Je maîtrise également le <i>HTML5</i> / <i>CSS3</i> ainsi que le <i>javascript</i> avec <i>jQuery</i>.",
-                "",
-                "Depuis cette année, je commence à étudier le <i>Java</i> et le <i>C</i> au sein de mon année d'enseignement supérieur.",
-                "",
-                "Dans la vie, je suis aussi étudiant en première année de <span class='info'>DUT Informatique</span>.",
-                "J'ai toujours voulu faire de l'informatique, ma passion, mon métier !"
+                "<span class='name'>Pierre Bourgeois</span>. 21 ans. Né le 7 juin 1996.",
+                "Développeur passionné depuis des années, je suis grandement attaché à plusieurs domaines de l'informatique.",
+                "De nature curieuse, je "
             ]
         }
     }

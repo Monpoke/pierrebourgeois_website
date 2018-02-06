@@ -63,7 +63,7 @@ Commands = {
                 Commands.history();
             }
             // history
-            else if (command === t("commands.man.cmd")) {
+            else if (command === t("commands.finger.cmd")) {
                 Commands.man();
             }
             // lang
@@ -185,7 +185,7 @@ Commands = {
         return true;
     },
     man: function () {
-        Commands.cout(t("commands.man.text"));
+        Commands.cout(t("commands.finger.text"));
         return true;
     },
     /**
