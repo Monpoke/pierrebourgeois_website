@@ -1,30 +1,39 @@
 {
-  "name": "pierrebourgeois_website",
-  "version": "1.0.0",
-  "description": "Contains my showcase website",
-  "dependencies": {
-    "gulp": "^3.9.1"
-  },
+  "name": "pierrebourgeois-showcase",
+  "repository": "https://github.com/Monpoke/pierrebourgeois_website",
+  "license": "MIT",
+  "version": "0.0.1",
   "devDependencies": {
-    "gulp-clean-css": "^3.0.3",
+    "@types/jquery": "^3.3.0",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "connect": "^3.4.1",
+    "css-loader": "^0.28.9",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "file-loader": "^1.1.6",
+    "gulp": "^3.9.1",
     "gulp-concat": "^2.6.1",
-    "gulp-uglify": "^2.1.0",
-    "pump": "^1.0.2"
+    "gulp-serve": "^1.4.0",
+    "gulp-util": "^3.0.7",
+    "jquery": "^3.3.1",
+    "less": "^2.7.3",
+    "less-loader": "^4.0.5",
+    "node-less": "^1.0.0",
+    "serve-static": "^1.11.1",
+    "style-loader": "^0.20.1",
+    "ts-loader": "^3.5.0",
+    "typescript": "^2.7.1",
+    "url-loader": "^0.6.2",
+    "webpack": "^3.11.0",
+    "webpack-dev-server": "^2.11.1"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "webpack -p",
+    "dev": "webpack-dev-server --hot --inline"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Monpoke/pierrebourgeois_website.git"
-  },
-  "keywords": [
-    "showcase"
-  ],
-  "author": "Pierre BOURGEOIS <contact@pierrebourgeois.fr>",
-  "license": "Apache-2.0",
-  "bugs": {
-    "url": "https://github.com/Monpoke/pierrebourgeois_website/issues"
-  },
-  "homepage": "https://github.com/Monpoke/pierrebourgeois_website#readme"
+  "dependencies": {
+    "jquery-i18next": "^1.2.1"
+  }
 }

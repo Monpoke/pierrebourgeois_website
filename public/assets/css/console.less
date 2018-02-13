@@ -1,0 +1,76 @@
+@font-face {
+  font-family: 'inconsolataregular';
+  src: url('../fonts/inconsolata-regular-webfont.woff2') format('woff2'),
+  url('../fonts/inconsolata-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+body {
+  background: black;
+  color:white;
+  font-family: "inconsolataregular";
+  margin:10px;
+}
+
+
+/**
+Animated cursor
+*/
+.typed-cursor{
+  opacity: 1;
+  width: 10px;
+  height: 18px;
+  background-color: rgb(223, 223, 223);
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-animation: blink 0.7s infinite;
+  -moz-animation: blink 0.7s infinite;
+  animation: blink 0.7s infinite;
+}
+@keyframes blink{
+  0% { opacity:1; }
+  50% { opacity:0; }
+  100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+  0% { opacity:1; }
+  50% { opacity:0; }
+  100% { opacity:1; }
+}
+@-moz-keyframes blink{
+  0% { opacity:1; }
+  50% { opacity:0; }
+  100% { opacity:1; }
+}
+
+
+/**
+* COMMANDS
+ */
+.command {
+  font-style: italic;
+  color: #70de53;
+}
+
+
+#console {
+
+
+  #inConsole{
+    border:none;
+    background: black;
+    color:white;
+    font-style: italic;
+    display: none;
+
+    &:focus {
+      border:none;
+      outline: none;
+    }
+  }
+
+}
+
+
