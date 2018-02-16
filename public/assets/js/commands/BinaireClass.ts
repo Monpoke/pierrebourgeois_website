@@ -1,0 +1,5 @@
+class BinaireClass {
+
+    constructor() {
+    }
+}z
