@@ -2,12 +2,14 @@ const path = require('path');
 const ExtractTextPlugin = require("extract-text-webpack-plugin");
 
 
-const extractLESS = new ExtractTextPlugin('stylesheets/[name]-two.css',{publicPath:{font:'./public'}});
+const extractLESS = new ExtractTextPlugin('stylesheets/[name]-two.css', {publicPath: {font: './public'}});
 
 
 module.exports = {
-    entry: './public/assets/js/App.ts',
-    entry: path.resolve(__dirname, './public/assets/css/console.less'),
+    entry: [
+        './public/assets/js/App.ts',
+        path.resolve(__dirname, './public/assets/css/console.less')
+    ],
 
     output: {
         filename: 'bundle.js',
@@ -34,7 +36,6 @@ module.exports = {
                 test: /\.less$/,
                 loader: "style-loader!css-loader!less-loader"
             }
-
 
 
         ]

@@ -1,5 +1,0 @@
-class BinaireClass {
-
-    constructor() {
-    }
-}z
