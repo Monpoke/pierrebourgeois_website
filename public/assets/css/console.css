@@ -64,14 +64,32 @@ Animated cursor
   font-style: italic;
   color: #70de53;
 }
-#console #inConsole {
+#inConsole {
   border: none;
   background: black;
   color: white;
   font-style: italic;
   display: none;
 }
-#console #inConsole:focus {
+#inConsole:focus {
   border: none;
   outline: none;
+}
+#console .line {
+  margin-bottom: 4px;
+}
+#console .cmdNotFound {
+  color: red;
+}
+#console .cmdError {
+  color: red;
+}
+#console .cmdName {
+  color: #70de53;
+}
+.lineHeader {
+  color: #ffa200;
+}
+.linePath {
+  color: green;
 }

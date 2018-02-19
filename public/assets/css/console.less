@@ -6,19 +6,17 @@
   font-style: normal;
 }
 
-
 body {
   background: black;
-  color:white;
+  color: white;
   font-family: "inconsolataregular";
-  margin:10px;
+  margin: 10px;
 }
-
 
 /**
 Animated cursor
 */
-.typed-cursor{
+.typed-cursor {
   opacity: 1;
   width: 10px;
   height: 18px;
@@ -29,22 +27,42 @@ Animated cursor
   -moz-animation: blink 0.7s infinite;
   animation: blink 0.7s infinite;
 }
-@keyframes blink{
-  0% { opacity:1; }
-  50% { opacity:0; }
-  100% { opacity:1; }
-}
-@-webkit-keyframes blink{
-  0% { opacity:1; }
-  50% { opacity:0; }
-  100% { opacity:1; }
-}
-@-moz-keyframes blink{
-  0% { opacity:1; }
-  50% { opacity:0; }
-  100% { opacity:1; }
+
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
+@-webkit-keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 
 /**
 * COMMANDS
@@ -54,23 +72,44 @@ Animated cursor
   color: #70de53;
 }
 
+#inConsole {
+  border: none;
+  background: black;
+  color: white;
+  font-style: italic;
+  display: none;
 
-#console {
-
-
-  #inConsole{
-    border:none;
-    background: black;
-    color:white;
-    font-style: italic;
-    display: none;
-
-    &:focus {
-      border:none;
-      outline: none;
-    }
+  &:focus {
+    border: none;
+    outline: none;
   }
-
 }
 
+#console {
+  .line {
+    margin-bottom: 4px;
+  }
 
+  .cmdNotFound {
+    color:red;
+  }
+
+  .cmdError {
+    color: red;
+  }
+
+
+  .cmdName {
+    color: #70de53;
+  }
+}
+
+// Global
+
+.lineHeader {
+  color: #ffa200;
+}
+
+.linePath {
+  color: green;
+}

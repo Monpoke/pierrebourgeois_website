@@ -1,0 +1,18 @@
+{
+  "cat": {
+    "usage": "utilisation: cat fichier1, [fichier2, fichier3...]",
+    "help": "<span class='cmdName'>cat</span> - Affiche le contenu d'un fichier.",
+    "description": ""
+  },
+  "help": {
+    "help": "<span class='cmdName'>help</span> - Liste des commandes les plus utiles sur ce terminal.",
+    "usage": "utilisation: help [commande]"
+  },
+
+
+  "finger": {
+    "help": "<span class='cmdName'>finger</span> - Permet d'afficher une description sur ma personne.",
+    "usage": "utilisation: finger ",
+    "text": "Coucou..."
+  }
+}
