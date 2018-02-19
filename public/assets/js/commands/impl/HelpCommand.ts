@@ -32,6 +32,11 @@ export class HelpCommand extends BaseCommand {
             this.tr("commands:help.help") + "<br>"
             + this.tr("commands:cat.help")+ "<br>"
             + this.tr("commands:finger.help")+ "<br>"
+            + this.tr("commands:history.help")+ "<br>"
+            + this.tr("commands:mail.help")+ "<br>"
+            + this.tr("commands:clear.help")+ "<br>"
+            + this.tr("commands:ping.help")+ "<br>"
+            + this.tr("commands:ls.help")+ "<br>"
 
 
 

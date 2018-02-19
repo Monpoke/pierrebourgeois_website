@@ -1,7 +1,7 @@
 {
   "cat": {
-    "usage": "utilisation: cat fichier1, [fichier2, fichier3...]",
     "help": "<span class='cmdName'>cat</span> - Affiche le contenu d'un fichier.",
+    "usage": "utilisation: cat fichier1, [fichier2, fichier3...]",
     "description": ""
   },
   "help": {
@@ -14,5 +14,31 @@
     "help": "<span class='cmdName'>finger</span> - Permet d'afficher une description sur ma personne.",
     "usage": "utilisation: finger ",
     "text": "Coucou..."
+  },
+
+  "history":{
+    "help":"<span class='cmdName'>history</span> - Affiche mon parcours scolaire.",
+    "usage":"utilisation: history"
+  },
+
+  "clear":{
+    "help":"<span class='cmdName'>clear</span> - Efface la fenêtre du terminal.",
+    "usage":"utilisation: clear"
+  },
+
+  "mail":{
+    "help":"<span class='cmdName'>mail</span> - Ouvre votre client mail pour me contacter.",
+    "usage":"utilisation: mail"
+  },
+
+  "ping":{
+    "help":"<span class='cmdName'>ping</span> - Affiche mes différentes coordonnées.",
+    "usage":"utilisation: ping [phone|twitter|mail|skype]"
+  },
+
+  "ls":{
+    "help":"<span class='cmdName'>ls</span> - Liste les fichiers du répertoire courant.",
+    "usage":"utilisation: ls [directory]"
   }
+
 }

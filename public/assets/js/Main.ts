@@ -16,18 +16,16 @@ export class Main {
         this.initTranslation();
 
         var thisClass = this;
-
+        $("body").focus();
         // SPECIAL KEYS
-        $('body').on(' keydown',function (e) {
-            if (e.keyCode == 8) thisClass.removeKeyCallback();
-            else if(e.keyCode===13) thisClass.validateKeyCallback();
-        });
-
-        $("body").on('keypress', function (e) {
+        $("body").bind('keypress',function (e) {
             e.preventDefault();
+            var code = e.charCode || e.keyCode;
 
+            if (code == 8) return thisClass.removeKeyCallback();
+            else if(code===13) return thisClass.validateKeyCallback();
 
-            thisClass.command += String.fromCharCode(e.keyCode);
+            thisClass.command += String.fromCharCode(code);
 
             thisClass.updateConsole();
         });
