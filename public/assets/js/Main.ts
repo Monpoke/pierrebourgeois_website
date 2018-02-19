@@ -17,13 +17,18 @@ export class Main {
 
         var thisClass = this;
         $("body").focus();
+        $("body").bind('keydown',function (e) {
+            var code = e.charCode || e.keyCode;
+            if (code == 8)  thisClass.removeKeyCallback();
+            else if(code===13)  thisClass.validateKeyCallback();
+
+
+        });
+
         // SPECIAL KEYS
         $("body").bind('keypress',function (e) {
             e.preventDefault();
             var code = e.charCode || e.keyCode;
-
-            if (code == 8) return thisClass.removeKeyCallback();
-            else if(code===13) return thisClass.validateKeyCallback();
 
             thisClass.command += String.fromCharCode(code);
 
