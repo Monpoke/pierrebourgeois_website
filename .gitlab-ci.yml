@@ -12,13 +12,10 @@ build:
   only:
   - master
   services:
-   - name: $CI_REGISTRY/group/project/docker:19.03.1-dind
-     alias: docker
+   - docker:19.03.1-dind
   variables:
-    # Specify to Docker where to create the certificates, Docker will
-    # create them automatically on boot, and will create
-    # `/certs/client` that will be shared between the service and
-    # build container.
+    # Use TLS https://docs.gitlab.com/ee/ci/docker/using_docker_build.html#tls-enabled
+    DOCKER_HOST: tcp://docker:2376
     DOCKER_TLS_CERTDIR: "/certs"
   script:
   - docker login -u $CI_REGISTRY_USER -p $CI_REGISTRY_PASSWORD $CI_REGISTRY
