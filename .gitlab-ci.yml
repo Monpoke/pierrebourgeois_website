@@ -11,6 +11,15 @@ build:
   stage: build
   only:
   - master
+  services:
+   - name: $CI_REGISTRY/group/project/docker:19.03.1-dind
+     alias: docker
+  variables:
+    # Specify to Docker where to create the certificates, Docker will
+    # create them automatically on boot, and will create
+    # `/certs/client` that will be shared between the service and
+    # build container.
+    DOCKER_TLS_CERTDIR: "/certs"
   script:
   - docker login -u $CI_REGISTRY_USER -p $CI_REGISTRY_PASSWORD $CI_REGISTRY
   - docker build . -t $LATEST_VER
