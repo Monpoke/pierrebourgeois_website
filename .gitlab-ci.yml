@@ -21,6 +21,7 @@ build:
     - apk add nodejs npm yarn
     - npm i -g gulp 
   script:
+    - npm install
     - gulp compress
     - docker login -u $CI_REGISTRY_USER -p $CI_REGISTRY_PASSWORD $CI_REGISTRY
     - docker build . -t $LATEST_VER
