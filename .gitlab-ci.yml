@@ -17,12 +17,7 @@ build:
     # Use TLS https://docs.gitlab.com/ee/ci/docker/using_docker_build.html#tls-enabled
     DOCKER_HOST: tcp://docker:2376
     DOCKER_TLS_CERTDIR: "/certs"
-  before_script:
-    - apk add nodejs npm yarn
-    - npm i -g gulp 
   script:
-    - npm install
-    - gulp compress
     - docker login -u $CI_REGISTRY_USER -p $CI_REGISTRY_PASSWORD $CI_REGISTRY
     - docker build . -t $LATEST_VER
     - docker tag $LATEST_VER $MAJOR_VER
