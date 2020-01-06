@@ -1,0 +1,19 @@
+image: docker:stable
+
+variables:
+  LATEST_VER: $CI_REGISTRY_IMAGE:latest
+  MAJOR_VER: $CI_REGISTRY_IMAGE:1.2.0
+
+stages:
+  - build
+
+build:
+  stage: build
+  only:
+  - master
+  script:
+  - docker login -u $CI_REGISTRY_USER -p $CI_REGISTRY_PASSWORD $CI_REGISTRY
+  - docker build . -t $LATEST_VER
+  - docker tag $LATEST_VER $MAJOR_VER
+  - docker push $LATEST_VER && docker image rm $LATEST_VER
+  - docker push $MAJOR_VER && docker image rm $MAJOR_VER

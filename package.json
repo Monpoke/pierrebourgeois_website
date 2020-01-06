@@ -1,6 +1,6 @@
 {
   "name": "pierrebourgeois_website",
-  "version": "1.0.0",
+  "version": "1.2.0",
   "description": "Contains my showcase website",
   "dependencies": {
     "gulp": "^3.9.1"
@@ -22,7 +22,7 @@
     "showcase"
   ],
   "author": "Pierre BOURGEOIS <contact@pierrebourgeois.fr>",
-  "license": "Apache-2.0",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/Monpoke/pierrebourgeois_website/issues"
   },
