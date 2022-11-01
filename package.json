@@ -3,7 +3,7 @@
   "version": "1.2.0",
   "description": "Contains my showcase website",
   "dependencies": {
-    "gulp": "^3.9.1",
+    "gulp": "^4.0.2",
     "graceful-fs": "4.2.2"
   },
   "devDependencies": {
